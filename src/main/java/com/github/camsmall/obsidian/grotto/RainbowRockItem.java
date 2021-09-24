@@ -22,7 +22,7 @@ public class RainbowRockItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
-        playerEntity.playSound(SoundEvents.BLOCK_BEACON_ACTIVATE, 1.0F, 1.0F);
+        playerEntity.playSound(SoundEvents.BLOCK_BEACON_POWER_SELECT, 2.0F, 1.0F);
         return TypedActionResult.success(playerEntity.getStackInHand(hand));
     }
 

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "charged=false": { "model": "obsidiangrotto:block/confetti_stone" },
+    "charged=true": { "model":  "obsidiangrotto:block/confetti_stone_charged"}
+  }
+}
